@@ -1,0 +1,5 @@
+StepDefinitions\PublicVicoProfile.class
+Steps\EditVicoDetailsSteps.class
+StepDefinitions\EditVicoDetails.class
+StepDefinitions\RunnerTest.class
+Steps\PublicVicoProfilePageSteps.class

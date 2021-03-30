@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-30T20:58:55.914Z",
+        "line": 12,
+        "name": "Test to access Public Vico Profile page from internal Vico profile page.",
+        "description": "",
+        "id": "feature-to-access-public-vico-profile-page;test-to-access-public-vico-profile-page-from-internal-vico-profile-page.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14001000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open and user is taken to internal vico login page",
+            "match": {
+              "location": "StepDefinitions.PublicVicoProfile.browsee_is_open_and_user_is_taken_to_internal_vicoprofile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3840000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters meeraagney@gmail.com and Reaction123* and logged in to the application.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "meeraagney@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Reaction123*",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.PublicVicoProfile.user_is_logged_in_to_the_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2390000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits profile tab.",
+            "match": {
+              "location": "StepDefinitions.PublicVicoProfile.user_visits_profile_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12722000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on link to access public vico profile page under vico name",
+            "match": {
+              "location": "StepDefinitions.PublicVicoProfile.user_click_on_link_to_access_public_vico_profile_page_under_vico_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12113000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Public vico profile page is displayed in a new tab also vico details are displayed.",
+            "match": {
+              "location": "StepDefinitions.PublicVicoProfile.public_vico_profile_page_is_displayed_in_a_new_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to access public Vico Profile Page",
+    "description": "",
+    "id": "feature-to-access-public-vico-profile-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/userstory3.1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-30T20:59:41.137Z",
+        "line": 11,
+        "name": "Test to edit details from internal vico profile page and preview them in public Vico Profile Page",
+        "description": "",
+        "id": "feature-to-edit-details-from-internal-vico-profile-page-and-preview-them-in-public-vico-profile-page;test-to-edit-details-from-internal-vico-profile-page-and-preview-them-in-public-vico-profile-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19224000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User visits Profile editing screen",
+            "match": {
+              "location": "StepDefinitions.EditVicoDetails.user_visits_Profile_editing_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6591000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters name and we will",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 12
+                },
+                {
+                  "val": "we will",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.EditVicoDetails.user_enters_name_and_we_will(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12383000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user visits public vico profile page",
+            "match": {
+              "location": "StepDefinitions.EditVicoDetails.user_visits_public_vico_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2607000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "edited details should be Updated in public vico profile page.",
+            "match": {
+              "location": "StepDefinitions.EditVicoDetails.preview_of_edited_details_should_be_displayed_there()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to edit details from internal vico profile page and preview them in public Vico Profile Page",
+    "description": "",
+    "id": "feature-to-edit-details-from-internal-vico-profile-page-and-preview-them-in-public-vico-profile-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/userstory3.feature",
+    "tags": []
+  }
+]
